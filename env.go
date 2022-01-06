@@ -2,6 +2,6 @@ package env
 
 import "fmt"
 
-func GetUserName(name String) (n String){
-  fmt.FPrintf("Your name is %v",name)
+func GetUserName(name String) (* String){
+  fmt.Printf("Your name is %v",name)
 }
